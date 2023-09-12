@@ -1,0 +1,40 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello world!");
+		
+		Product p1 = new Product(); // initialization = declaration + assignment
+		p1.name = "TV";
+		p1.price = 20;
+		p1.printName();
+		
+		// mag ook:
+		Product p2;			// declaration
+		p2 = new Product();	// assignment
+		// p2.name = "wasmachine";
+		p2.printName();
+		
+		Werknemer w1 = new Werknemer();
+		w1.naamWerknemer = "Niek";
+		w1.leeftijd = 32;
+		w1.bedrijfsnaam = "Working Talent";
+		w1.actief = true;
+		w1.leukWerk = true;
+		w1.printNaamWerknemer();
+		w1.printBedrijfNaam();
+		
+		Werknemer w2 = new Werknemer();
+		w2.naamWerknemer = "Jorrit";
+		w2.leeftijd = 40;
+		w2.bedrijfsnaam = "Working Talent";
+		w2.actief = true;
+		w2.leukWerk = true;
+		w2.printNaamWerknemer();
+		w2.printBedrijfNaam();
+		
+		
+	}
+
+}

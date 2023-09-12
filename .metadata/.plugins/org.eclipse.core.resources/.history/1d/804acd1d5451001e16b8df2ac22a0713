@@ -1,0 +1,17 @@
+
+public class Werknemer {
+
+	public String naamWerknemer;
+	public int leeftijd;
+	public boolean actief;
+	public String bedrijfNaam;
+	public boolean leukWerk;
+	
+	public void printNaamWerknemer() {
+		System.out.println("Naam werknemer is " + naamWerknemer);
+	}
+	
+	public void printBedrijfNaam() {
+		System.out.println("Werknemer werkt bij bedrijf " + bedrijfNaam);
+	}
+}

@@ -1,0 +1,7 @@
+
+// Class
+public class Product {
+	
+	// Property
+	public String name;
+}

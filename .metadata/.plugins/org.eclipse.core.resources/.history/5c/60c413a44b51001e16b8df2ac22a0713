@@ -1,0 +1,19 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Hello world!");
+		
+		Product p1 = new Product(); // initialization = declaration + assignment
+		p1.name = "TV";
+		p1.price = 20;
+		
+		// mag ook:
+		Product p2;			// declaration
+		p2 = new Product();	// assignment
+		p2.name = "wasmachine";
+		
+	}
+
+}

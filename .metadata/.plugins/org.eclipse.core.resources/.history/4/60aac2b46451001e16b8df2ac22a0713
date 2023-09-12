@@ -1,0 +1,42 @@
+
+public class Werknemer {
+
+	public String naamWerknemer;
+	public int leeftijd;
+	public boolean actief;
+	public String bedrijfNaam;
+	public boolean leukWerk;
+	
+	public void printNaamWerknemer() {
+		System.out.println("De werknemer heet " + naamWerknemer);
+	}
+	
+	public void printBedrijfNaam() {
+		System.out.println(naamWerknemer + " werkt bij bedrijf " + bedrijfNaam);
+	}
+	
+	public void veranderNaamWerknemer(String name) {
+		this.naamWerknemer = name;
+	}
+	
+	public void veranderLeeftijd(int leeftijd) {
+		this.leeftijd = leeftijd;
+	}
+	
+	public void veranderActiviteit(boolean actief) {
+		this.actief = actief;
+	}
+	
+	public void stelAllesIn(String name, int leeftijd, boolean actief, String bedrijfNaam, boolean leukWerk) {
+		this.naamWerknemer = name;
+		this.leeftijd = leeftijd;
+		this.actief = actief;
+		this.bedrijfNaam = bedrijfNaam;
+		this.leukWerk = leukWerk;
+		// System.out.println(name + " " + leeftijd + " "+ actief);
+	}
+	
+	public String description2() {
+		return "De werknemer heet " + naamWerknemer + " en werkt bij " + bedrijfNaam;
+	}
+}

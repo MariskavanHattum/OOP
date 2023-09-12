@@ -1,0 +1,10 @@
+
+public class Werknemer {
+
+	public String naamWerknemer;
+	public int leeftijd;
+	public boolean actief;
+	public String bedrijfsnaam;
+	public boolean leukWerk;
+	
+}

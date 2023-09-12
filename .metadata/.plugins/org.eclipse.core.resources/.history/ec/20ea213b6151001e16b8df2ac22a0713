@@ -1,0 +1,37 @@
+
+// Class
+public class Product {
+	
+	// Property
+	private String name;
+	
+	private int price;
+	
+	private int totalPrice;
+	
+	private int taxPercentage;
+	
+	// public int telephone; // hij haalt de 0 weg en + is niet toegestaan
+	// public String telephone; // +31641248773 werkt wel!
+	
+	// Method
+	public void printName() {
+		System.out.println("Naam is " + name);
+	}
+	
+	// onderstaande method aanroepen in application als bijv. p1.defineName("Laptop");
+	public void defineName(String name) {
+		this.name = name; // this refereert naar de object name, bijv. p1
+	}
+	
+	public void calculateTotalPrice() {
+		totalPrice = price * (taxPercentage/100);
+	}
+	
+	public String description() {
+		String a = "Naam product is " + name + " en prijs is " + price;
+		return a;
+		
+		// alles onder de return wordt nooit uitgevoerd
+	}
+}
